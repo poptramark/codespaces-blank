@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.t3AeRbnlAKmcn2lqzGfKuwHaE8%26pid%3DApi&f=1&ipt=569d23289bc99dcc1813fc8e139439eeecd1955ff66e859422b14e68bc328c92&ipo=images);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    background: radial-gradient(grey, black);
+    font-family: 'Roboto', sans-serif;
+    outline: auto;
+    outline-color: gold;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: auto;
+    width: 100%;
+    height: 70%;
+    
+}
+.grid-item{
+    border: 0.5px solid rgba(255,255,255,0.3);
+    border-radius: 1px;
+    text-align: center;
+    font-size: auto;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.L0fHj-mM9am5u2UlL18McQHaEK%26pid%3DApi&f=1&ipt=f7b283bdf8c67a545ba6a0d68f8eabac8c8b8c2ab25b1c5088b84546714b7728&ipo=images);
+    background-size: cover;
+    padding: auto;
+    box-sizing: border-box;
+}
+.item1{
+    display: block;
+    grid-row: 1 / 1;
+    grid-column: 1 / 4;
+    color: springgreen;
+}
+.item2{
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+    color: white;
+}
+.item3{
+    grid-row: 2 / 5;
+    grid-column: 2 / 3;
+    color: royalblue;
+}
+.item4{
+    grid-row: 2 / 5;
+    grid-column: 3 / 4;
+    color: darkkhaki;
+}

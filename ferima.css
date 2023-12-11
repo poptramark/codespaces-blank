@@ -1,5 +1,6 @@
 body{
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.t3AeRbnlAKmcn2lqzGfKuwHaE8%26pid%3DApi&f=1&ipt=569d23289bc99dcc1813fc8e139439eeecd1955ff66e859422b14e68bc328c92&ipo=images);
+   background: radial-gradient(royalblue purple)
+   
 }
 .grid-container{
     display: grid;

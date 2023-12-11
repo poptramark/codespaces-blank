@@ -1,1 +1,0 @@
-window.alert("  WELCOME TO FESTUS ERIMA'S FAMILY WEBSITE.\n It is Poptra Mark ")
